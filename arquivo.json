@@ -1,0 +1,881 @@
+{
+    "metadata": {
+        "Esri": {
+            "CreaDate": "20170824",
+            "CreaTime": "16360200",
+            "SyncOnce": "FALSE",
+            "SyncDate": "20240125",
+            "SyncTime": "12522100",
+            "ModDate": "20240125",
+            "ModTime": "12522100",
+            "ArcGISFormat": "1.0",
+            "DataProperties": {
+                "itemProps": {
+                    "itemName": {
+                        "_Sync": "TRUE",
+                        "__text": "bairros"
+                    },
+                    "itemLocation": {
+                        "linkage": {
+                            "_Sync": "TRUE",
+                            "__text": "file://\\\\SPD6224DW\\C$\\Users\\u44615\\Desktop\\SIMGeo_downloads\\Limites\\bairros.shp"
+                        },
+                        "protocol": {
+                            "_Sync": "TRUE",
+                            "__text": "Local Area Network"
+                        }
+                    },
+                    "itemSize": {
+                        "_Sync": "TRUE",
+                        "__text": "0.000"
+                    },
+                    "nativeExtBox": {
+                        "westBL": {
+                            "_Sync": "TRUE",
+                            "__text": "706774.484500"
+                        },
+                        "eastBL": {
+                            "_Sync": "TRUE",
+                            "__text": "723944.725300"
+                        },
+                        "southBL": {
+                            "_Sync": "TRUE",
+                            "__text": "7078581.297700"
+                        },
+                        "northBL": {
+                            "_Sync": "TRUE",
+                            "__text": "7108025.301300"
+                        },
+                        "exTypeCode": {
+                            "_Sync": "TRUE",
+                            "__text": "1"
+                        }
+                    },
+                    "imsContentType": {
+                        "_Sync": "TRUE",
+                        "__text": "002"
+                    }
+                },
+                "coordRef": {
+                    "type": {
+                        "_Sync": "TRUE",
+                        "__text": "Projected"
+                    },
+                    "geogcsn": {
+                        "_Sync": "TRUE",
+                        "__text": "GCS_SIRGAS_2000"
+                    },
+                    "csUnits": {
+                        "_Sync": "TRUE",
+                        "__text": "Linear Unit: Meter (1.000000)"
+                    },
+                    "projcsn": {
+                        "_Sync": "TRUE",
+                        "__text": "SIRGAS_2000_UTM_Zone_22S"
+                    },
+                    "peXml": {
+                        "_Sync": "TRUE",
+                        "__text": "<ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem'\n                    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'\n                    xmlns:xs='http://www.w3.org/2001/XMLSchema'\n                    xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.1.0'><WKT>PROJCS[&quot;SIRGAS_2000_UTM_Zone_22S&quot;,GEOGCS[&quot;GCS_SIRGAS_2000&quot;,DATUM[&quot;D_SIRGAS_2000&quot;,SPHEROID[&quot;GRS_1980&quot;,6378137.0,298.257222101]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;False_Easting&quot;,500000.0],PARAMETER[&quot;False_Northing&quot;,10000000.0],PARAMETER[&quot;Central_Meridian&quot;,-51.0],PARAMETER[&quot;Scale_Factor&quot;,0.9996],PARAMETER[&quot;Latitude_Of_Origin&quot;,0.0],UNIT[&quot;Meter&quot;,1.0],AUTHORITY[&quot;EPSG&quot;,31982]]</WKT><XOrigin>-5120900</XOrigin><YOrigin>1900</YOrigin><XYScale>450445547.3910538</XYScale><ZOrigin>-100000</ZOrigin><ZScale>10000</ZScale><MOrigin>-100000</MOrigin><MScale>10000</MScale><XYTolerance>0.001</XYTolerance><ZTolerance>0.001</ZTolerance><MTolerance>0.001</MTolerance><HighPrecision>true</HighPrecision><WKID>31982</WKID><LatestWKID>31982</LatestWKID></ProjectedCoordinateSystem>"
+                    }
+                },
+                "lineage": {
+                    "Process": [
+                        {
+                            "_ToolSource": "C:\\Program Files (x86)\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CopyFeatures",
+                            "_Date": "20131017",
+                            "_Time": "120816",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "CopyFeatures C:\\Users\\u50050\\Desktop\\mapas\\2013\\IPPUJ\\DATASET_IPPUJ\\ESTRUTURACAO_TERRITORIAL\\Limite_de_Bairros.shp \"Database Connections\\ippuj-web05.sde\\simgeo.ippuj.ippuj\\simgeo.ippuj.Limite_de_Bairros\" # 0 0 0"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CopyFeatures",
+                            "_Date": "20131210",
+                            "_Time": "110338",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "CopyFeatures \"Database Connections\\SEPLAN.sde\\simgeo.ippuj.ippuj\\simgeo.ippuj.Limite_de_Bairros\" C:\\Fundema\\UCP.gdb\\UCP_BID\\Limite_de_Bairros # 0 0 0"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CopyFeatures",
+                            "_Date": "20131218",
+                            "_Time": "112855",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "CopyFeatures Limite_de_Bairros \"Database Connections\\SEPLAN.sde\\simgeo.seplan.Bendo\\simgeo.seplan.Limite_de_Bairros\" # 0 0 0"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CopyFeatures",
+                            "_Date": "20140523",
+                            "_Time": "134941",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "CopyFeatures simgeo.seplan.Limite_de_Bairros \"Database Connections\\IPPUJ.sde\\simgeo.ippuj.ippuj\\simgeo.ippuj.simgeo_seplan_Limite_de_Bairros\" # 0 0 0"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files (x86)\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\UnregisterAsVersioned",
+                            "_Date": "20140821",
+                            "_Time": "085822",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "UnregisterAsVersioned \"Database Connections\\ippuj-web05.sde\\simgeo.ippuj.ippuj\\simgeo.ippuj.Limite_de_Bairros\" NO_KEEP_EDIT NO_COMPRESS_DEFAULT"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files (x86)\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Conversion Tools.tbx\\FeatureClassToFeatureClass",
+                            "_Date": "20170116",
+                            "_Time": "110142",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "FeatureClassToFeatureClass M:\\SAP\\UNG\\GEO\\Temp\\Zoneamento_novo_LOT_470_2017\\LOT_SGC\\Limite_de_Bairros_2017.shp \"Database Connections\\PROD limites.sde\\simgeo.limites.limites\" Limite_de_Bairros_2017 # \"OBJECTID_1 \"OBJECTID_1\" true true false 9 Long 0 9 ,First,#,M:\\SAP\\UNG\\GEO\\Temp\\Zoneamento_novo_LOT_470_2017\\LOT_SGC\\Limite_de_Bairros_2017.shp,OBJECTID_1,-1,-1;objectid \"objectid\" true true false 19 Double 0 0 ,First,#,M:\\SAP\\UNG\\GEO\\Temp\\Zoneamento_novo_LOT_470_2017\\LOT_SGC\\Limite_de_Bairros_2017.shp,objectid,-1,-1;nome_bairr \"nome_bairr\" true true false 50 Text 0 0 ,First,#,M:\\SAP\\UNG\\GEO\\Temp\\Zoneamento_novo_LOT_470_2017\\LOT_SGC\\Limite_de_Bairros_2017.shp,nome_bairr,-1,-1;st_area_sh \"st_area_sh\" true true false 19 Double 0 0 ,First,#,M:\\SAP\\UNG\\GEO\\Temp\\Zoneamento_novo_LOT_470_2017\\LOT_SGC\\Limite_de_Bairros_2017.shp,st_area_sh,-1,-1;st_length_ \"st_length_\" true true false 19 Double 0 0 ,First,#,M:\\SAP\\UNG\\GEO\\Temp\\Zoneamento_novo_LOT_470_2017\\LOT_SGC\\Limite_de_Bairros_2017.shp,st_length_,-1,-1;Shape_Leng \"Shape_Leng\" true true false 19 Double 0 0 ,First,#,M:\\SAP\\UNG\\GEO\\Temp\\Zoneamento_novo_LOT_470_2017\\LOT_SGC\\Limite_de_Bairros_2017.shp,Shape_Leng,-1,-1;Shape_Area \"Shape_Area\" true true false 19 Double 0 0 ,First,#,M:\\SAP\\UNG\\GEO\\Temp\\Zoneamento_novo_LOT_470_2017\\LOT_SGC\\Limite_de_Bairros_2017.shp,Shape_Area,-1,-1\" PG_GEOMETRY"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files (x86)\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CopyFeatures",
+                            "_Date": "20170216",
+                            "_Time": "080113",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "CopyFeatures \"Database Connections\\PROD04 sde.sde\\simgeo.limites.limites\\simgeo.limites.Limite_de_Bairros_2017\" C:\\Users\\u50050\\Limite_de_Bairros_2017.shp # 0 0 0"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files (x86)\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CopyFeatures",
+                            "_Date": "20170216",
+                            "_Time": "081338",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "CopyFeatures C:\\Users\\u50050\\Limite_de_Bairros_2017.shp \"Database Connections\\PROD04 sde.sde\\simgeo.limites.limites\\simgeo.limites.Limite_de_Bairros_2017\" PG_GEOMETRY 0 0 0"
+                        },
+                        {
+                            "_ToolSource": "c:\\arquivos de programas\\arcgis\\desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CopyFeatures",
+                            "_Date": "20170807",
+                            "_Time": "120238",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "CopyFeatures simgeo.limites.Limite_de_Bairros_2017 \"C:\\Documents and Settings\\u03222\\Desktop\\SEPUD\\bairros.gdb\\bairro\\simgeo_limites_Limite_de_Bairros_2017\" # 0 0 0"
+                        },
+                        {
+                            "_ToolSource": "c:\\arquivos de programas\\arcgis\\desktop10.0\\ArcToolbox\\Toolboxes\\Analysis Tools.tbx\\Clip",
+                            "_Date": "20170807",
+                            "_Time": "120502",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "Clip simgeo_limites_Limite_de_Bairros_2017 perimetro_20jul17 \"C:\\Documents and Settings\\u03222\\Desktop\\SEPUD\\bairros.gdb\\bairros_2017_clip\" #"
+                        },
+                        {
+                            "_ToolSource": "c:\\arquivos de programas\\arcgis\\desktop10.0\\ArcToolbox\\Toolboxes\\Conversion Tools.tbx\\FeatureClassToFeatureClass",
+                            "_Date": "20170810",
+                            "_Time": "074214",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "FeatureClassToFeatureClass \"C:\\Documents and Settings\\u03222\\Desktop\\SEPUD\\bairros.gdb\\bairro\\bairros_2017_clip\" \"C:\\Documents and Settings\\u03222\\Desktop\\SEPUD\" bairros_corrigido.shp # \"nome_bairr \"nome_bairr\" true true false 50 Text 0 0 ,First,#,C:\\Documents and Settings\\u03222\\Desktop\\SEPUD\\bairros.gdb\\bairro\\bairros_2017_clip,nome_bairr,-1,-1;shape_leng \"shape_leng\" true true false 8 Double 0 0 ,First,#,C:\\Documents and Settings\\u03222\\Desktop\\SEPUD\\bairros.gdb\\bairro\\bairros_2017_clip,shape_leng,-1,-1;shape_Le_1 \"shape_Length\" false true true 8 Double 0 0 ,First,#,C:\\Documents and Settings\\u03222\\Desktop\\SEPUD\\bairros.gdb\\bairro\\bairros_2017_clip,shape_Length,-1,-1;shape_Area \"shape_Area\" false true true 8 Double 0 0 ,First,#,C:\\Documents and Settings\\u03222\\Desktop\\SEPUD\\bairros.gdb\\bairro\\bairros_2017_clip,shape_Area,-1,-1\" #"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files (x86)\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Conversion Tools.tbx\\FeatureClassToFeatureClass",
+                            "_Date": "20170824",
+                            "_Time": "170904",
+                            "_Name": "",
+                            "_export": "",
+                            "__text": "FeatureClassToFeatureClass M:\\IPPUJ\\UPD\\Geral\\GEOPROCESSAMENTO\\GEO\\2017\\SHP\\Bairros_Corrigido\\bairros_sem_aeroporto.shp \"Database Connections\\PROD limites.sde\\simgeo.limites.limites\" Limite_de_Bairros # \"nome_bairr \"nome_bairr\" true true false 50 Text 0 0 ,First,#,M:\\IPPUJ\\UPD\\Geral\\GEOPROCESSAMENTO\\GEO\\2017\\SHP\\Bairros_Corrigido\\bairros_sem_aeroporto.shp,nome_bairr,-1,-1;usuario_ad \"usuario_ad\" true true false 10 Text 0 0 ,First,#,M:\\IPPUJ\\UPD\\Geral\\GEOPROCESSAMENTO\\GEO\\2017\\SHP\\Bairros_Corrigido\\bairros_sem_aeroporto.shp,usuario_ad,-1,-1;dt_inc \"dt_inc\" true true false 8 Date 0 0 ,First,#,M:\\IPPUJ\\UPD\\Geral\\GEOPROCESSAMENTO\\GEO\\2017\\SHP\\Bairros_Corrigido\\bairros_sem_aeroporto.shp,dt_inc,-1,-1;dt_upd \"dt_upd\" true true false 8 Date 0 0 ,First,#,M:\\IPPUJ\\UPD\\Geral\\GEOPROCESSAMENTO\\GEO\\2017\\SHP\\Bairros_Corrigido\\bairros_sem_aeroporto.shp,dt_upd,-1,-1\" PG_GEOMETRY"
+                        },
+                        {
+                            "_ToolSource": "C:\\Program Files (x86)\\ArcGIS\\Desktop10.0\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\CopyFeatures",
+                            "_Date": "20230630",
+                            "_Time": "181733",
+                            "__text": "CopyFeatures \"Database Connections\\Connection to Other.sde\\simgeo.limites.limites\\simgeo.limites.Limite_de_Bairros\" M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros # 0 0 0"
+                        },
+                        {
+                            "_ToolSource": "c:\\program files\\arcgis\\pro\\Resources\\ArcToolbox\\toolboxes\\Conversion Tools.tbx\\ExportFeatures",
+                            "_Date": "20230706",
+                            "_Time": "144622",
+                            "__text": "ExportFeatures M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros M:\\TI\\Desenvolvimento\\Geral\\Michel\\ArcGIS\\producao-gisadmin.sde\\gisdb.gisadmin.limites\\gisdb.gisadmin.Limite_de_Bairros # NOT_USE_ALIAS \"nome_bairr \"nome_bairr\" true true false 50 Text 0 0,First,#,M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros,nome_bairr,0,50;usuario_ad \"usuario_ad\" true true false 10 Text 0 0,First,#,M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros,usuario_ad,0,10;dt_inc \"dt_inc\" true true false 8 Date 0 0,First,#,M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros,dt_inc,-1,-1;dt_upd \"dt_upd\" true true false 8 Date 0 0,First,#,M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros,dt_upd,-1,-1;id_bairro \"id_bairro\" true true false 4 Long 0 0,First,#,M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros,id_bairro,-1,-1;shape_Length \"shape_Length\" false true true 8 Double 0 0,First,#,M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros,shape_Length,-1,-1;shape_Area \"shape_Area\" false true true 8 Double 0 0,First,#,M:\\TI\\Desenvolvimento\\Geral\\Michel\\MigracaoArcgis\\limites.gdb\\Limite_de_Bairros,shape_Area,-1,-1\" #"
+                        },
+                        {
+                            "_ToolSource": "c:\\program files\\arcgis\\pro\\Resources\\ArcToolbox\\toolboxes\\Conversion Tools.tbx\\ExportFeatures",
+                            "_Date": "20240125",
+                            "_Time": "125221",
+                            "__text": "ExportFeatures gisdb.gisadmin.Limite_de_Bairros C:\\Users\\u44615\\Desktop\\SIMGeo_downloads\\Limites\\bairros.shp # NOT_USE_ALIAS \"nome_bairr \"nome_bairr\" true true false 50 Text 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,nome_bairr,0,50;usuario_ad \"usuario_ad\" true true false 10 Text 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,usuario_ad,0,10;dt_inc \"dt_inc\" true true false 8 Date 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,dt_inc,-1,-1;dt_upd \"dt_upd\" true true false 8 Date 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,dt_upd,-1,-1;id_bairro \"id_bairro\" true true false 4 Long 0 10,First,#,gisdb.gisadmin.Limite_de_Bairros,id_bairro,-1,-1;created_user \"created_user\" false true false 255 Text 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,created_user,0,255;created_date \"created_date\" false true false 8 Date 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,created_date,-1,-1;last_edited_user \"last_edited_user\" false true false 255 Text 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,last_edited_user,0,255;last_edited_date \"last_edited_date\" false true false 8 Date 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,last_edited_date,-1,-1;st_area(shape) \"st_area(shape)\" false true true 0 Double 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,st_area(shape),-1,-1;st_perimeter(shape) \"st_perimeter(shape)\" false true true 0 Double 0 0,First,#,gisdb.gisadmin.Limite_de_Bairros,st_perimeter(shape),-1,-1\" #"
+                        }
+                    ]
+                }
+            },
+            "ArcGISstyle": "North American Profile of ISO19115 2003",
+            "ArcGISProfile": "NAP"
+        },
+        "Binary": {
+            "Thumbnail": {
+                "Data": {
+                    "_EsriPropertyType": "PictureX",
+                    "__text": "/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy\nMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA\nAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii\ngAooooAKKKKACiiigApjyxxuqs2C3T/P4in1mqHmESzNl5W2ylfl6A5A9BkevrWVWpyWS3bGkaVF\nIAFAA6DilrUQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABWU6vI\nyrGJCRK7Hy2ClRuIzk/XpV28QNbM+518sFxsOCcA8VFYAr5qvzLkEn1HP8yGPbrWFRKU4xfqNF2i\niitxBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAZlwZoIpUd2YSA\njJ75/u56H/Z79u9T2qCCYQpjayliSOcgjv361LeAG35H8af+hConO2aBzwA+CfqCP54rhqSdOvFX\n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"
+                }
+            }
+        },
+        "mdLang": {
+            "languageCode": {
+                "_Sync": "FALSE",
+                "_value": "por"
+            },
+            "countryCode": {
+                "_value": "BRA",
+                "_Sync": "TRUE"
+            }
+        },
+        "mdContact": {
+            "rpIndName": "Núcleo de Geoprocessamento - GEO; Secretaria de Planejamento Urbano e Desenvolvimento Sustentável de Joinville - SEPUD",
+            "rpOrgName": "Prefeitura Municipal de Joinville - PMJ",
+            "rpPosName": "Autor",
+            "role": {
+                "RoleCd": {
+                    "_value": "011"
+                }
+            }
+        },
+        "dataIdInfo": {
+            "dataLang": {
+                "languageCode": {
+                    "_Sync": "FALSE",
+                    "_value": "por",
+                    "_country": "BRA"
+                },
+                "countryCode": {
+                    "_value": "BRA",
+                    "_Sync": "TRUE"
+                }
+            },
+            "idCitation": {
+                "resAltTitle": "Limite de Bairros",
+                "date": {
+                    "createDate": "2013-10-17T12:00:00"
+                },
+                "citRespParty": {
+                    "rpIndName": "Núcleo de Geoprocessamento - GEO; Secretaria de Planejamento Urbano e Desenvolvimento Sustentável de Joinville - SEPUD",
+                    "rpOrgName": "Prefeitura Municipal de Joinville - PMJ",
+                    "rpPosName": "Autor",
+                    "role": {
+                        "RoleCd": {
+                            "_value": "001"
+                        }
+                    }
+                },
+                "resTitle": {
+                    "_Sync": "TRUE",
+                    "__text": "bairros"
+                },
+                "presForm": {
+                    "PresFormCd": {
+                        "_value": "005",
+                        "_Sync": "TRUE"
+                    }
+                }
+            },
+            "idPurp": "Delimitar os limites dos bairros de Joinville",
+            "idAbs": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>Limites de Bairros de Joinville</SPAN></P></DIV></DIV></DIV>",
+            "idCredit": "Núcleo de Geoprocessamento - GEO; Secretaria de Planejamento Urbano e Desenvolvimento Sustentável de Joinville - SEPUD; Prefeitura Municipal de Joinville - PMJ",
+            "searchKeys": {
+                "keyword": [
+                    "Limites",
+                    "bairros"
+                ]
+            },
+            "dataChar": {
+                "CharSetCd": {
+                    "_value": "004"
+                }
+            },
+            "idStatus": {
+                "ProgCd": {
+                    "_value": "001"
+                }
+            },
+            "dataScale": {
+                "equScale": {
+                    "rfDenom": "10000"
+                }
+            },
+            "resMaint": {
+                "maintFreq": {
+                    "MaintFreqCd": {
+                        "_value": "009"
+                    }
+                }
+            },
+            "resConst": {
+                "LegConsts": {
+                    "accessConsts": {
+                        "RestrictCd": {
+                            "_value": "009"
+                        }
+                    },
+                    "useConsts": {
+                        "RestrictCd": {
+                            "_value": "006"
+                        }
+                    }
+                }
+            },
+            "envirDesc": {
+                "_Sync": "TRUE",
+                "__text": "Microsoft Windows 10 Version 10.0 (Build 16299) ; Esri ArcGIS 13.1.3.41833"
+            },
+            "spatRpType": {
+                "SpatRepTypCd": {
+                    "_value": "001",
+                    "_Sync": "TRUE"
+                }
+            },
+            "dataExt": {
+                "geoEle": {
+                    "GeoBndBox": {
+                        "exTypeCode": {
+                            "_Sync": "TRUE",
+                            "__text": "1"
+                        },
+                        "westBL": {
+                            "_Sync": "TRUE",
+                            "__text": "-48.931815"
+                        },
+                        "eastBL": {
+                            "_Sync": "TRUE",
+                            "__text": "-48.755072"
+                        },
+                        "northBL": {
+                            "_Sync": "TRUE",
+                            "__text": "-26.129690"
+                        },
+                        "southBL": {
+                            "_Sync": "TRUE",
+                            "__text": "-26.397947"
+                        },
+                        "_esriExtentType": "search"
+                    }
+                }
+            },
+            "tpCat": {
+                "TopicCatCd": {
+                    "_value": "003"
+                }
+            },
+            "descKeys": {
+                "thesaName": {
+                    "_uuidref": "723f6998-058e-11dc-8314-0800200c9a66"
+                },
+                "keyword": {
+                    "_Sync": "TRUE",
+                    "__text": "002"
+                }
+            }
+        },
+        "mdMaint": {
+            "maintFreq": {
+                "MaintFreqCd": {
+                    "_value": "009"
+                }
+            }
+        },
+        "dqInfo": {
+            "dqScope": {
+                "scpLvl": {
+                    "ScopeCd": {
+                        "_value": "009"
+                    }
+                }
+            },
+            "dataLineage": {
+                "statement": "Classe de feição vetorial tipo poligonal que localiza os limites de bairros do município de Joinville, utilizando como referência a restituição aerofotogramétrica de 2010\nDelimitação dos atuais bairros pertencentes a cidade de Joinville."
+            }
+        },
+        "eainfo": {
+            "detailed": {
+                "enttyp": {
+                    "enttypl": {
+                        "_Sync": "TRUE",
+                        "__text": "bairros"
+                    },
+                    "enttypt": {
+                        "_Sync": "TRUE",
+                        "__text": "Feature Class"
+                    },
+                    "enttypc": {
+                        "_Sync": "TRUE",
+                        "__text": "0"
+                    }
+                },
+                "attr": [
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "FID"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "FID"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "OID"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "4"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attrdef": {
+                            "_Sync": "TRUE",
+                            "__text": "Internal feature number."
+                        },
+                        "attrdefs": {
+                            "_Sync": "TRUE",
+                            "__text": "Esri"
+                        },
+                        "attrdomv": {
+                            "udom": {
+                                "_Sync": "TRUE",
+                                "__text": "Sequential unique whole numbers that are automatically generated."
+                            }
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "nome_bairr"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "nome_bairr"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "String"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "50"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "usuario_ad"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "usuario_ad"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "String"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "10"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "dt_inc"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "dt_inc"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "Date"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "8"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "dt_upd"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "dt_upd"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "Date"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "8"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "shape"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "Shape"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "Geometry"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attrdef": {
+                            "_Sync": "TRUE",
+                            "__text": "Feature geometry."
+                        },
+                        "attrdefs": {
+                            "_Sync": "TRUE",
+                            "__text": "ESRI"
+                        },
+                        "attrdomv": {
+                            "udom": {
+                                "_Sync": "TRUE",
+                                "__text": "Coordinates defining the features."
+                            }
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "id_bairro"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "id_bairro"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "Integer"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "10"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "10"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "created_us"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "created_us"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "String"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "254"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "created_da"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "created_da"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "Date"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "8"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "last_edite"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "last_edite"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "String"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "254"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "last_edi_1"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "last_edi_1"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "Date"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "8"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "st_area_sh"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "st_area_sh"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "Double"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "19"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    },
+                    {
+                        "attrlabl": {
+                            "_Sync": "TRUE",
+                            "__text": "st_perimet"
+                        },
+                        "attalias": {
+                            "_Sync": "TRUE",
+                            "__text": "st_perimet"
+                        },
+                        "attrtype": {
+                            "_Sync": "TRUE",
+                            "__text": "Double"
+                        },
+                        "attwidth": {
+                            "_Sync": "TRUE",
+                            "__text": "19"
+                        },
+                        "atprecis": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        },
+                        "attscale": {
+                            "_Sync": "TRUE",
+                            "__text": "0"
+                        }
+                    }
+                ],
+                "_Name": "bairros"
+            }
+        },
+        "distInfo": {
+            "distFormat": {
+                "formatName": {
+                    "_Sync": "TRUE",
+                    "__text": "Shapefile"
+                }
+            },
+            "distTranOps": {
+                "transSize": {
+                    "_Sync": "TRUE",
+                    "__text": "0.000"
+                }
+            }
+        },
+        "mdHrLv": {
+            "ScopeCd": {
+                "_value": "005",
+                "_Sync": "TRUE"
+            }
+        },
+        "mdHrLvName": {
+            "_Sync": "TRUE",
+            "__text": "dataset"
+        },
+        "refSysInfo": {
+            "RefSystem": {
+                "refSysID": {
+                    "identCode": {
+                        "_code": "31982",
+                        "_Sync": "TRUE",
+                        "_value": "31982"
+                    },
+                    "idCodeSpace": {
+                        "_Sync": "TRUE",
+                        "__text": "EPSG"
+                    },
+                    "idVersion": {
+                        "_Sync": "TRUE",
+                        "__text": "6.11(8.1.2)"
+                    }
+                }
+            }
+        },
+        "spatRepInfo": {
+            "VectSpatRep": {
+                "geometObjs": {
+                    "geoObjTyp": {
+                        "GeoObjTypCd": {
+                            "_value": "002",
+                            "_Sync": "TRUE"
+                        }
+                    },
+                    "geoObjCnt": {
+                        "_Sync": "TRUE",
+                        "__text": "0"
+                    },
+                    "_Name": "bairros"
+                },
+                "topLvl": {
+                    "TopoLevCd": {
+                        "_value": "001",
+                        "_Sync": "TRUE"
+                    }
+                }
+            }
+        },
+        "spdoinfo": {
+            "ptvctinf": {
+                "esriterm": {
+                    "efeatyp": {
+                        "_Sync": "TRUE",
+                        "__text": "Simple"
+                    },
+                    "efeageom": {
+                        "_code": "4",
+                        "_Sync": "TRUE"
+                    },
+                    "esritopo": {
+                        "_Sync": "TRUE",
+                        "__text": "FALSE"
+                    },
+                    "efeacnt": {
+                        "_Sync": "TRUE",
+                        "__text": "0"
+                    },
+                    "spindex": {
+                        "_Sync": "TRUE",
+                        "__text": "FALSE"
+                    },
+                    "linrefer": {
+                        "_Sync": "TRUE",
+                        "__text": "FALSE"
+                    },
+                    "_Name": "bairros"
+                }
+            }
+        },
+        "mdDateSt": {
+            "_Sync": "TRUE",
+            "__text": "20240125"
+        },
+        "mdFileID": "306647D9-C3EB-43C8-A7F0-9AAE4155A1E1",
+        "mdChar": {
+            "CharSetCd": {
+                "_value": "004"
+            }
+        },
+        "_xml:lang": "pt"
+    }
+}
